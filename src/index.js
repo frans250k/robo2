@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Card from "./Card";
+import App from "./App";
+import "../public/index.css";
 import "tachyons";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <Card />
-    <Card />
-    <Card />
-    <Card />
+    <App />
   </React.StrictMode>,
   rootElement
 );
